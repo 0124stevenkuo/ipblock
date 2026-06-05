@@ -1353,3 +1353,4 @@ workers.dev
 duckdns.org
 cloudfront.net
 aliyuncs.com
+downloads.googlestorages.workers.dev
