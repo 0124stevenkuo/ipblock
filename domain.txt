@@ -1354,3 +1354,6 @@ duckdns.org
 cloudfront.net
 aliyuncs.com
 downloads.googlestorages.workers.dev
+api.powerai.dpdns.org
+backend.powerai.dpdns.org
+cdn.cloudcore.dpdns.org
