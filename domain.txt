@@ -1363,3 +1363,7 @@ ns.acceleradrive.com
 ns.trendupdate.net
 toolsssssaaaa.meisuobudamlya.net
 vs.awscloudfont.com
+api.powerai.dpdns.org
+backend.powerai.dpdns.org
+cdn.cloudcore.dpdns.org
+downloads.googlestorages.workers.dev
