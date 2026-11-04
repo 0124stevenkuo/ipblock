@@ -30,12 +30,12 @@ jobs:
         run: python3 scripts/build_checkpoint_feed.py
       - name: Commit when changed
         run: |
-          if git diff --quiet -- blockip.csv; then
+          if git diff --quiet -- blockip.txt blockip.csv; then
             echo "CSV already current"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add blockip.csv
-          git commit -m "Sync Check Point feed from blockip.txt"
+          git add blockip.txt blockip.csv
+          git commit -m "Sync protected blocklists for PA and Check Point"
           git push
